@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie Recommender</title>
+</head>
+<body>
+<form action = "{{ url_for('recommendations') }}" method="post">
+<input type="text" name="movie" placeholder="Enter your favourite movie">
+<button>Submit</button>
+</form>
+</body>
+</html>
